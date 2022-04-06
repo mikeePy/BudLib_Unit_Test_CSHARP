@@ -13,7 +13,7 @@ namespace BudLibAutomationTest
         public void RunTests()
         {
             TestBase.Initialize();
-            TestBase.Login("yves.pauchard@ucalgary.ca", "easypassword");
+            TestBase.Login("", ""); //enter login information here
             Thread.Sleep(2000);
             Browser.elementClick(By.XPath("//h6[contains(.,'Search loaners')]"));
             Thread.Sleep(2000);
